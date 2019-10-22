@@ -54,9 +54,7 @@ int main()
 
 		}
 
-		for (auto i = 0; i < t.size(); i++)
-		{
-			
+
 			while (t_gautas!=t & iteraciju_sk <10000)
 			{
 				w = mokymas(w, x, t,funk);
@@ -77,7 +75,7 @@ int main()
 
 				}
 			}
-		}
+
 		for (auto i = 0; i < w.size(); i++)
 		{
 			std::cout << "Iki mokymo w(" << i << "): " << w_old[i];
@@ -128,9 +126,6 @@ int main()
 			}
 		}
 
-		for (auto i = 0; i < t.size(); i++)
-		{
-
 			while (t_gautas != t & iteraciju_sk < 10000)
 			{
 				w = mokymas(w, x, t,funk);
@@ -149,7 +144,7 @@ int main()
 					}
 				}
 			}
-		}
+		
 		for (auto i = 0; i < w.size(); i++)
 		{
 			std::cout << "Iki mokymo w(" << i << "): " << w_old[i];
